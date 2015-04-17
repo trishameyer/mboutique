@@ -21,11 +21,11 @@ If you haven't already fork and clone the MBoutique repository
 
 #### Screenshot Example
 
-<img src="#" alt="MBoutique Home Page Screenshot">
+<img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/_preview_explained/Welcome_Screenshot.png?raw=true" alt="MBoutique Home Page Screenshot">
 
 #### Design Doc
 
-<img src="#" alt="MBoutique Home PAge Design Doc">
+<img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/_preview_explained/welcome_exp.png?raw=true" alt="MBoutique Home PAge Design Doc">
 
 #### Suggestions
 - Break the page down into sections and build one section at a time. For example:
