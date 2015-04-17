@@ -15,7 +15,7 @@ First we will start by setting up our gitHub repository
 - Clone this repo. <a href="#" target="_blank">Need Help?</a>
 
 ## Assignment 1
-<a href="#" target="_blank">Click here for assignment 1</a>
+<a href="https://github.com/Learning-Fuze/mboutique/tree/assignment_1" target="_blank">Click here for assignment 1</a>
 
 ## Next Assignments
 Coming soon
