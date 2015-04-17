@@ -11,7 +11,7 @@ We will be building out the full MBoutique website
 ## Getting Started
 First we will start by setting up our gitHub repository
 - Fork this repository. <a href="#" target="_blank">Need Help?</a>
-- Open your command line. <a href="#" target="_blank">Need Help Mac?</a> <a href="#" target="_blank">Need Help PC?</a>
+- Open your command line. <a href="#" target="_blank">Need Help Mac?</a> or <a href="#" target="_blank">Need Help PC?</a>
 - Clone this repo. <a href="#" target="_blank">Need Help?</a>
 
 ## Assignment 1
