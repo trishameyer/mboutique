@@ -9,8 +9,6 @@ If you haven't already fork and clone the MBoutique repository
 - Open your command line. <a href="#" target="_blank">Need Help Mac?</a> or <a href="#" target="_blank">Need Help PC?</a>
 - Clone this repo. <a href="#" target="_blank">Need Help?</a>
 
-## Assignment 1
-
 ### Step 1
 - Open Sublime Text
 - In Sublime Text open your folder that contains the MBoutique project
