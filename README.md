@@ -5,9 +5,9 @@ We will be building out the first page of the MBoutique website
 
 ## Getting Started
 If you haven't already fork and clone the MBoutique repository
-- Fork this repository. <a href="#" target="_blank">Need Help?</a>
-- Open your command line. <a href="#" target="_blank">Need Help Mac?</a> or <a href="#" target="_blank">Need Help PC?</a>
-- Clone this repo. <a href="#" target="_blank">Need Help?</a>
+- Fork this repository. <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#step-1---forking-the-repo" target="_blank">Need Help?</a>
+- Open your command line. <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#mac---option-1-right-click" target="_blank">Need Help Mac?</a> or <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#windows" target="_blank">Need Help PC?</a>
+- Clone this repo. <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#step-3---cloning-the-repo" target="_blank">Need Help?</a>
 
 ### Step 1
 - Open Sublime Text
