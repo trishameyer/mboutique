@@ -41,3 +41,9 @@ If you haven't already fork and clone the MBoutique repository
 	- You can find more details on [chrome developer tools](http://discover-devtools.codeschool.com/) on codeschool and other places. 
 - Test each CSS change as you implement it.  It can be difficult to ascertain "what went wrong" if you do many lines of code and then test it.
 - Pay attention to the gross details first, and then make a second pass for fine details. 
+
+### Step 3 - Save to gitHub
+
+1. `git add .` - Add all files for staging
+2. `git commit -m "MBoutique Home page"` - Commit the files with a message of "MBoutique Home page"
+3. `git push origin master` - Push these files to a remote location (origin master)
