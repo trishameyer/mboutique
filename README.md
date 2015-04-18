@@ -16,6 +16,7 @@ First we will start by setting up our gitHub repository
 
 ## Assignment 1
 <a href="https://github.com/Learning-Fuze/mboutique/tree/assignment_1" target="_blank">Click here for assignment 1</a>
+Due Monday 4/20/2015
 
 ## Next Assignments
 Coming soon
