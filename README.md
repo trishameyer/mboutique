@@ -1,7 +1,7 @@
 # MBoutique
 
-## Assignment 2
-We will be building out the second page of the MBoutique website
+## Assignment 3
+We will be building out the third page of the MBoutique website
 
 ### Step 1
 - Open Sublime Text
