@@ -1,31 +1,29 @@
 # MBoutique
 
-## Assignment 1
-We will be building out the first page of the MBoutique website
-
-## Getting Started
-If you haven't already fork and clone the MBoutique repository
-- Fork this repository. <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#step-1---forking-the-repo" target="_blank">Need Help?</a>
-- Open your command line. <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#mac---option-1-right-click" target="_blank">Need Help Mac?</a> or <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#windows" target="_blank">Need Help PC?</a>
-- Clone this repo. <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#step-3---cloning-the-repo" target="_blank">Need Help?</a>
+## Assignment 2
+We will be building out the second page of the MBoutique website
 
 ### Step 1
 - Open Sublime Text
 - In Sublime Text open your folder that contains the MBoutique project
+- Create a new file by clicking `File->New File`
+- Save the file by clicking `File->Save`
+	- Name the file our_macarons.html
 
 ### Step 2
-- Create the HTML and CSS necessary to reproduce the MBoutique home/welcome page
-	- Use the index.html file for your HTML
+- Create the HTML and CSS necessary to reproduce the MBoutique Our Macarons page
+	- Use the our_macarons.html file for your HTML
 	- Use the style.css file for your CSS
+- Don't forget to link your CSS to your HTML ex: `<link rel="stylesheet" type="text/css" src="style.css">
 - Use the design images for reference (Found in the assets folder)
 
 #### Screenshot Example
 
-<img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/screenshots/Welcome_Screenshot.png?raw=true" alt="MBoutique Home Page Screenshot">
+<img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/screenshots/our-macarons-screenshot.png?raw=true" alt="MBoutique Our Macarons Page Screenshot">
 
 #### Design Doc
 
-<img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/_preview_explained/welcome_exp.png?raw=true" alt="MBoutique Home Page Design Doc">
+<img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/_preview_explained/our-macarons_exp.png?raw=true" alt="MBoutique Our Macarons Page Design Doc">
 
 #### Suggestions
 - Break the page down into sections and build one section at a time. For example:
@@ -45,5 +43,5 @@ If you haven't already fork and clone the MBoutique repository
 ### Step 3 - Save to gitHub
 
 1. `git add .` - Add all files for staging
-2. `git commit -m "MBoutique Home page"` - Commit the files with a message of "MBoutique Home page"
+2. `git commit -m "MBoutique Our Macarons page"` - Commit the files with a message of "MBoutique Our Macarons page"
 3. `git push origin master` - Push these files to a remote location (origin master)
