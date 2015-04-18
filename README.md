@@ -8,13 +8,13 @@ We will be building out the second page of the MBoutique website
 - In Sublime Text open your folder that contains the MBoutique project
 - Create a new file by clicking `File->New File`
 - Save the file by clicking `File->Save`
-	- Name the file our_macarons.html
+	- Name the file: `our_macarons.html`
 
 ### Step 2
 - Create the HTML and CSS necessary to reproduce the MBoutique Our Macarons page
 	- Use the our_macarons.html file for your HTML
 	- Use the style.css file for your CSS
-- Don't forget to link your CSS to your HTML ex: `<link rel="stylesheet" type="text/css" src="style.css">
+- Don't forget to link your CSS to your HTML ex: `<link rel="stylesheet" type="text/css" src="style.css">`
 - Use the design images for reference (Found in the assets folder)
 
 #### Screenshot Example
