@@ -19,5 +19,12 @@ First we will start by setting up our gitHub repository
 
 Due Monday 4/20/2015
 
-## Next Assignments
-Coming soon
+## Assignments 2-4
+<a href="https://github.com/Learning-Fuze/mboutique/tree/assignment_2" target="_blank">Click here for assignment 2</a>
+
+<a href="https://github.com/Learning-Fuze/mboutique/tree/assignment_3" target="_blank">Click here for assignment 3</a>
+
+<a href="https://github.com/Learning-Fuze/mboutique/tree/assignment_4" target="_blank">Click here for assignment 4</a>
+
+####Review for assignments 2-4 will begin Wednesday 4/22/2015 @ 10am
+
