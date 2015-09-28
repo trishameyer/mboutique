@@ -10,8 +10,8 @@ If you haven't already fork and clone the MBoutique repository
 - Clone this repo. <a href="https://github.com/Learning-Fuze/mboutique/blob/git_help/README.md#step-3---cloning-the-repo" target="_blank">Need Help?</a>
 
 ### Step 1
-- Open Sublime Text
-- In Sublime Text open your folder that contains the MBoutique project
+- Open PHPStorm Text
+- In PHPStorm Text open your folder that contains the MBoutique project
 
 ### Step 2
 - Create the HTML and CSS necessary to reproduce the MBoutique home/welcome page
