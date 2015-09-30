@@ -4,12 +4,6 @@
 We will be building out the first page of the MBoutique website
 
 ## Code Setup Details
-# MBoutique
-
-## Assignment 1
-We will be building out the first page of the MBoutique website
-
-## Code Setup Details
 
 #####1. Open PHPStorm
 
