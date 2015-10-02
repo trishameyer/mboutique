@@ -39,13 +39,21 @@ We will be building out the Contacts page of the MBoutique website
 
 ## Coding Instructions
 
-### Feature Set 1 - Contact Page
-> - Create the HTML and CSS necessary to reproduce the MBoutique Contact page
+### Feature Set 1 - Contact Page Mobile Friendly
+> - Create the HTML and CSS necessary to reproduce a mobile friendly version of the MBoutique Contact page
 	- Use the contact.html file for your HTML
 	- Use the style.css file for your CSS
+	- The page should match the design dock when displayed on a large screen
+	- The page should switch to a mobile version on smaller screens
+		- Refer to mobile images below for desired look
 > - Don't forget to link your CSS to your HTML 
 	- ex: `<link rel="stylesheet" type="text/css" src="style.css">`
 > - Use the design images for reference (Found in the assets folder)
+> - For testing on a mobile device refer to instructions below
+	- For this assignment you will be testing the output for an iPhone 6
+> - In the head section of your contact.html page add the following meta tag
+	- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+	- Without the above tag, your page will not display properly on a mobile device
 
 #### Screenshot Example
 
@@ -54,6 +62,49 @@ We will be building out the Contacts page of the MBoutique website
 #### Design Doc
 
 ><img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/mboutique_preview/_preview_explained/contact_exp.png?raw=true" alt="MBoutique Contact Page Design Doc">
+
+#### Mobile Screenshots
+
+><img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/assignment_4/mb-mobile-1.png?raw=true" alt="mBoutique mobile screenshot 1">
+<img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/assignment_4/mb-mobile-2.png?raw=true" alt="mBoutique mobile screenshot 1">
+
+#### How to test for mobile
+
+> Don't forget to add the following meta tag in the head section of your page
+
+> `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+#### Open the inspector in chrome
+- Locate the mobile phone icon at the top left of the inspector
+
+> ---
+
+><img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/assignment_4/mobile-icon.png?raw=true" width="800">
+ 
+--- 
+ 
+#### After clicking the phone icon you should see a new tool bar across the top
+- In the pull down menu select iPhone 6
+	
+---	
+	
+><img src="https://github.com/Learning-Fuze/mboutique/blob/master/assets/assignment_4/choose-device.png?raw=true" width="800">
+	
+---	
+	
+#### Refresh the page
+
+After the page refreshes you should see what your page would look like on a mobile device
+
+---
+
+#### Mobile Suggestions
+
+> - Use media quieries for your CSS, like
+    - `@media sceen and (max-width: 627px)`
+> - For your sizing use percentages, vh and vw
+> - Keep mobile in mind when you are building the full size site
+    - Use the mobile first approach
 
 #### Suggestions
 
