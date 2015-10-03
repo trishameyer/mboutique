@@ -71,9 +71,6 @@ We will be building out the Contacts page of the MBoutique website
 > - Test each CSS change as you implement it.  It can be difficult to ascertain "what went wrong" if you do many lines of code and then test it.
 > - Pay attention to the gross details first, and then make a second pass for fine details. 
 
-### Feature Set 2 - Contact Page - MOBILE FRIENDLY
-> - Utilizing skills you have learned from HTML & CSS Responsive & Mobile First prototypes, make the contact page display suitably for a mobile device.  Namely each form element should display on its own line, taking up most if not all of the available line.
-
 ## After Coding Details
 ##### 1. Save files to Git - Add all modified & created files
 > Run below command in terminal tab
