@@ -51,7 +51,7 @@ header ul li:hover {
 #main-content{
     width: 1000px;
     height: 528px;
-    margin: 72px 0;
+    margin-top: 72px;
 }
 
 #main-content div{
@@ -74,7 +74,11 @@ section h3{
     margin: 40px 0;
 }
 
-
+section p {
+    font-size: 14px;
+    color: #6a6969;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
 
 section{
     border: 2px solid gray;
@@ -85,6 +89,7 @@ section{
    width: 1000px;
     height: 140px;
     border: 1px solid blue;
+    margin: 40px 0;
 }
 
 footer{
