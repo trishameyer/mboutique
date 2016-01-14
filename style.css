@@ -92,6 +92,59 @@ section{
     margin: 40px 0;
 }
 
+#menu > div{
+    width: 126px;
+    height: 140px;
+    background-color: #fffabe;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+#menu div div {
+    float: left;
+    width: 126px;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+
+}
+
+#menu div div:nth-of-type(1){
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+
+#menu div div:nth-of-type(2), #menu div div:nth-of-type(3){
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #6a6969;
+}
+
+#menu div div:nth-of-type(4){
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #824603;
+    width: 126px;
+    height: 33px;
+    box-sizing: border-box;
+}
+
+#menu div div:nth-of-type(3){
+    box-sizing: box-border;
+    padding: 5px 0 5px 10px;
+}
+
+#menu div div:nth-of-type(3) img{
+    float: right;
+    transform: translate(0,-25%);
+}
+
+#menu div div:nth-of-type(4) img{
+    float: right;
+    transform: translate(0,-25%);
+}
+
 footer{
    height: 80px;
    width: 1000px;
