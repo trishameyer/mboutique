@@ -1,1 +1,127 @@
 /* Add your CSS here */
+header {
+    width: 1000px;
+    height: 72px;
+    background-color: #fffabe;
+}
+
+img{
+    display: inline-block;
+    margin: 2% 4%;
+}
+
+header ul {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #515151;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3%;
+    float: right;
+    width: 70%;
+}
+
+header ul li{
+    display: inline;
+    margin-left: 5%;
+
+}
+
+header ul li:hover {
+    color: #d42551;
+}
+
+#welcome-img img{
+    width: 1000px;
+    height: 400px;
+    margin: 0;
+}
+
+
+#main-content img{
+    display: inline-block;
+    width: 28%;
+    margin: 0 40px;
+    transform: translate(0, 65px);
+    box-sizing: border-box;
+}
+
+#main-content2{
+    width: 1000px;
+    height: 700px;
+    margin-top: 72px;
+    position: relative;
+    background-image: url("assets/images/our-macarons-background.png")
+}
+
+#main-content2 div {
+    margin: 0 40px;
+}
+
+#main-content2 li{
+    padding-top: 3px;
+}
+#main-content{
+    width: 1000px;
+    height: 528px;
+    margin-top: 72px;
+    border: 1px solid gray;
+}
+
+
+#main-content div{
+    display: inline-block;
+    width: 60%;
+    height: 528px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+section h3:first-of-type{
+    margin-top: 20px;
+}
+
+section h3{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #6a6969;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px 0;
+}
+
+section p, section ul {
+    font-size: 14px;
+    color: #6a6969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-content2 div p:nth-child(5){
+    transform: translate(0,60px);
+}
+
+footer{
+    height: 80px;
+    width: 1000px;
+    background-color: #df5277;
+}
+
+footer img{
+    margin: 0 15px 0 15px;
+}
+
+footer div{
+    display: inline-block;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+#copyright{
+    font-size: 12px;
+    color: #ffffff;
+    display: inline;
+    margin-left: 360px;
+}
