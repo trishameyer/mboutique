@@ -184,6 +184,10 @@ footer div{
         height: auto;
     }
 
+    section{
+        height: 160vh;
+    }
+
     #main-content {
         width: 100%;
         margin-top: 3vh;
@@ -219,11 +223,30 @@ footer div{
         height: 12.8vh;
     }
 
+    footer div{
+        margin: 0;
+        display: inline;
+        font-size: 2vh;
+        position: relative;
+        left: 7%;
+    }
+
+    footer div:nth-of-type(3){
+        display: inline-block;
+        position: relative;
+        left: 30%;
+    }
+
+    #copyright{
+        left: 22%;
+    }
+
     form input:nth-child(6){
         position: relative;
         right: 0;
         left: 45%;
     }
+
 }
 
 
