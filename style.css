@@ -8,7 +8,10 @@ header {
 
 img{
     display: inline-block;
-    /*margin: 2% 4%;*/
+}
+
+header img{
+    margin: 2% 4%;
 }
 
 header ul {
@@ -105,20 +108,27 @@ section p {
 }
 
 /*all form css here*/
-form input {
+input {
     width: 310px;
     height: 35px;
     background-color: #f5f5f5;
     margin-bottom: 15px;
+    border: none;
+    font-size: 14px;
 }
 
-form input [name=submit]{
-
+form input:nth-child(6){
+    width: 155px;
+    position: absolute;
+    right: 30%;
+    margin-top: 15px;
 }
 textarea{
     width: 310px;
     height: 70px;
     background-color: #f5f5f5;
+    border: none;
+    font-size: 14px;
 }
 
 /*css for all footer elements*/
