@@ -62,6 +62,31 @@ header ul li:hover {
 #main-content2 li{
     padding-top: 3px;
 }
+
+#main-content3 div p{
+    width: 900px;
+}
+
+#main-content3 h3 {
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+#main-content3 div p:nth-child(7){
+    width: 50%;
+}
+
+#main-content3{
+    width: 1000px;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    background-image: url("assets/images/gifts-parties-background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    box-sizing: border-box;
+}
 #main-content{
     width: 1000px;
     height: 528px;
@@ -100,6 +125,87 @@ section p, section ul {
     transform: translate(0,60px);
 }
 
+/*Start of CSS for flavor menu*/
+
+#flavor_menu_container{
+    width: 1000px;
+    height: 140px;
+    margin: 40px 0;
+}
+
+#flavor_menu_container > div{
+    width: 126px;
+    height: 140px;
+    background-color: #fffabe;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+#flavor_menu_container div div {
+    float: left;
+    width: 126px;
+    padding: 10px 0 10px 10px;
+    box-sizing: border-box;
+
+}
+
+#flavor_menu_container div div:nth-of-type(1){
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+
+#flavor_menu_container div div:nth-of-type(2), #flavor_menu_container div div:nth-of-type(3){
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #6a6969;
+}
+
+#flavor_menu_container div div:nth-of-type(4){
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    width: 126px;
+    height: 33px;
+    box-sizing: border-box;
+}
+
+#flavor_menu_container div div:nth-of-type(3){
+    box-sizing: border-box;
+    padding: 5px 0 5px 10px;
+}
+
+#flavor_menu_container div div:nth-of-type(3) img{
+    float: right;
+    transform: translate(0,-25%);
+}
+
+#flavor_menu_container div div:nth-of-type(4) img{
+    float: right;
+    transform: translate(0,-25%);
+}
+
+#coconut{
+    background-color: #824603;
+}
+
+#vanilla{
+    background-color: #df5277;
+}
+
+#lemon{
+    background-color: #a2304e;
+}
+
+#almond{
+    background-color: #c39005;
+}
+
+#flavor_menu_container div:nth-child(2) div:last-child, #flavor_menu_container div:nth-child(4) div:last-child, #flavor_menu_container div:nth-child(6) div:last-child{
+    color: #6a6969;
+}
+
+/*CSS for footer*/
 footer{
     height: 80px;
     width: 1000px;
