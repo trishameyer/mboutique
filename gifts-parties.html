@@ -1,18 +1,23 @@
 <!doctype html>
-<html>
+<html ng-app="mboutiqueApp">
 <head>
     <meta charset="utf-8">
     <title>mboutique</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<header>
+<header ng-controller="mainController">
     <img src="assets/images/logo.png">
     <ul>
-        <li>WELCOME</li>
-        <li>OUR MACARONS</li>
-        <li>GIFTS & PARTIES</li>
-        <li>CONTACT</li>
+        <li ng-repeat="loc in mc.nav">
+            <a href="{{ loc.loc }}"> {{ loc.title }} </a>
+        </li>
+        <!--<li>WELCOME</li>-->
+        <!--<li>OUR MACARONS</li>-->
+        <!--<li>GIFTS & PARTIES</li>-->
+        <!--<li>CONTACT</li>-->
     </ul>
 </header>
 <section>

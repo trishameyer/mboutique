@@ -11,18 +11,34 @@ app.config(function($routeProvider){
         })
        .when('/our-macarons', {
            templateUrl: 'out_macarons.html',
-           controller: 'macaronsController'
+           controller: 'mainController'
        })
        .when('/gifts-parties',{
            templateUrl: 'gifts-parties.html',
-           controller: 'giftsController'
+           controller: 'mainController'
         })
        .when('/contact',{
            templateUrl: 'contact.html',
-           controller: 'contactController'
+           controller: 'mainController'
        })
        .otherwise({
            redirectTo: '/'
        })
+});
+
+app.controller('mainController', function(){
+   this.nav = [{
+       title: 'WELCOME',
+       loc: '#/'
+   }, {
+       title: 'OUR MACARONS',
+       loc: '/our-macarons'
+   }, {
+       title: 'GIFTS &amp PARTIES',
+       loc: '/gifts-parties'
+   }, {
+       title: 'CONTACT',
+       loc: '/contact'
+   }]
 });
 

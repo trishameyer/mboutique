@@ -1,6 +1,6 @@
 <!--Add Your home page HTML here-->
-<!doctype html ng-app="mboutiqueApp">
-<html>
+<!doctype html>
+<html ng-app="mboutiqueApp">
 <head>
     <meta charset="utf-8">
     <title>mboutique</title>
@@ -8,18 +8,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body ng-controller="mainController">
+<body ng-controller="mainController as mc">
 <header>
     <img src="assets/images/logo.png">
     <ul>
-        <li><a href="#/">WELCOME</a></li>
-        <li><a href="#our-macarons">OUR MACARONS</a></li>
-        <li><a href="#gifts-parties">GIFTS &amp PARTIES</a></li>
-        <li><a href="#contact">CONTACT</a></li>
+        <li ng-repeat="loc in mc.nav">
+            <a href="{{ loc.loc }}"> {{ loc.title }} </a>
+        </li>
+        <!--<li><a href="#/">WELCOME</a></li>-->
+        <!--<li><a href="#our-macarons">OUR MACARONS</a></li>-->
+        <!--<li><a href="#gifts-parties">GIFTS &amp PARTIES</a></li>-->
+        <!--<li><a href="#contact">CONTACT</a></li>-->
     </ul>
 </header>
 <!--Add templates into this section tag using Angular-->
 <section>
+    <div ng-view></div>
     <div id="welcome-img">
         <img src="assets/images/welcome-image.png">
     </div>
