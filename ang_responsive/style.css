@@ -68,14 +68,27 @@ footer img {
     height: 63vh;
     width: 80vw;
     margin-left: 9.5%;
-    position: relative;
+    overflow: hidden;
+    background-size: cover;
 }
 
-.bannerImgContainer img{
-   width: 100%;
+.homeBanner {
+    background-image: url('assets/images/welcome-image.png');
+}
+
+.ourMacsBanner {
+    background-image: url('assets/images/our-macarons-image.png');
+}
+
+.giftsBanner {
+    background-image: url('assets/images/gifts-parties-image.png');
+}
+
+.contactBanner {
+    background-image: url('assets/images/contact-image.png');
 }
 
 .mainContent {
     border: 1px solid black;
-    height: 100vh;
+    height: 110vh;
 }

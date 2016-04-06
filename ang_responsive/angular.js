@@ -34,12 +34,12 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
 
 });
 
-routerApp.controller('welcomeController', function($scope){
-    $scope.banner = 'assets/images/welcome-image.png';
-}).controller('macaronsController', function($scope){
-    $scope.banner = 'assets/images/our-macarons-image.png';
-}).controller('giftsController', function($scope){
-    $scope.banner = 'assets/images/gifts-parties-image.png';
-}).controller('contactController', function($scope){
-    $scope.banner = 'assets/images/contact-image.png';
-});
+//routerApp.controller('welcomeController', function($scope){
+//    $scope.banner = 'assets/images/welcome-image.png';
+//}).controller('macaronsController', function($scope){
+//    $scope.banner = 'assets/images/our-macarons-image.png';
+//}).controller('giftsController', function($scope){
+//    $scope.banner = 'assets/images/gifts-parties-image.png';
+//}).controller('contactController', function($scope){
+//    $scope.banner = 'assets/images/contact-image.png';
+//});
