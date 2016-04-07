@@ -7,8 +7,8 @@ body {
 /*FOOTER AND HEADER CSS*/
 header, footer {
     /*width: 100vw;*/
-    width: 80vw;
-    height: 10vh;
+    width: 1000px;
+    height: 72px;
     background-color: #fffabe;
     position: relative;
 }
@@ -66,15 +66,18 @@ footer img {
 /*MAIN CONTENT TEMPLATES CSS*/
 .bannerImgContainer,
 .mainContent {
-    height: 63vh;
-    width: 80vw;
-    margin-left: 9.5%;
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    /*margin-left: 9.5%;*/
     overflow: hidden;
     background-size: cover;
 }
 
 .homeBanner {
     background-image: url('assets/images/welcome-image.png');
+    background-size: cover;
+
 }
 
 .ourMacsBanner {
@@ -91,5 +94,76 @@ footer img {
 
 .mainContent {
     border: 1px solid black;
-    height: 110vh;
+    height: 115vh;
+}
+
+.mainContent > .row {
+    margin-top: 15vh;
+    height: 60%;
+}
+
+.mainContent .row .row {
+    height: 50%;
+}
+
+.mainContent h4 {
+    font-size: 20px;
+    padding-bottom: 5%;
+}
+
+.mainContent p {
+    padding-right: 5%;
+}
+
+.centering {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*FlexBox Css for Flavor Menu*/
+.flavorMenu {
+    display: flex;
+    border: 1px solid black;
+    height: 140px;
+    width: 1000px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.flexItem {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    /*border: 1px solid gray;*/
+    width: 126px;
+    height: 100%;
+    background-color: #fffabe;
+}
+.flexItem div:nth-of-type(1){
+    padding-top: 5%;
+}
+
+.flexItem div {
+    height: 33px;
+    padding: 2% 5% 0 5%;
+    /*padding-left: 5%;*/
+    /*padding-right: 5%;*/
+    flex-grow: 1;
+    line-height: 1.5;:
+}
+
+.flexItem img {
+    float: right;
+}
+
+/*.flexItem div:last-of-type{*/
+    /*background-color: #824603;*/
+/*}*/
+
+.fontWhite {
+    color: white;
 }
