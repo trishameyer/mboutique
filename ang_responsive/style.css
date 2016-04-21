@@ -93,8 +93,8 @@ footer img {
 }
 
 .mainContent {
-    border: 1px solid black;
-    height: 115vh;
+    /*border: 1px solid black;*/
+    height: 135vh;
 }
 
 .mainContent > .row {
@@ -126,12 +126,13 @@ footer img {
 /*FlexBox Css for Flavor Menu*/
 .flavorMenu {
     display: flex;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     height: 140px;
     width: 1000px;
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 0;
+    margin-top: 7%;
 }
 
 .flexItem {
@@ -166,4 +167,20 @@ footer img {
 
 .fontWhite {
     color: white;
+}
+
+.brownColor {
+    background-color: #824603;
+}
+
+.pinkColor {
+    background-color: #df5277;
+}
+
+.maroonColor {
+    background-color: #a2304e;
+}
+
+.caramelColor {
+    background-color: #c39005;
 }
